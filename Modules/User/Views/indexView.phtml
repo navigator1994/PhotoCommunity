@@ -1,0 +1,38 @@
+
+<div id="user">
+    <div id = "photo-content">
+        <div id ="load-form">
+            <form method="post" action="http://photocommunity/image/upload" enctype="multipart/form-data">
+                <label>Upload image: </label><input type="file" name = "file">
+                <input type="submit" name = "upload" value="upload">
+            </form>
+        </div>
+
+
+        <?php
+        foreach ($data['images'] as $value) {
+            echo '<a href="http://photocommunity/image/show/'.$value[0].'">
+                <div class = "image-block"><img src="' .$value[2].'">
+                    <div class = "options">
+                    <a href="">delete</a>
+                    <a href="">like: '.$value[3].'</a>
+                    <a href="">dislike: '.$value[4].'</a>
+                    </div>
+                </div>
+            </a>';
+        }
+        ?>
+
+
+    </div>
+
+    <div id = "account">
+        <div class = "avatar"><img src="<?php echo $data['account'][5]?>"></div>
+        <p>Login: <?php echo $data['account'][1]?></p>
+        <p>Name: <?php echo $data['account'][3]?></p>
+        <p>Surname: <?php echo $data['account'][4]?></p>
+        <p>Email: <?php echo $data['account'][8]?></p>
+        <p>Birthday: <?php echo $data['account'][6]?></p>
+        <p>Status: <?php echo $data['account'][7] == 2 ? "Administrator": "User"?></p>
+    </div>
+</div>

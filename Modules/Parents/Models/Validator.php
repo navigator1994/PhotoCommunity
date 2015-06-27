@@ -66,6 +66,11 @@ class Validator {
 
     }
 
+    public function isValidPhoto($file)
+    {
+        return true;
+    }
+
     public function getErrorMessage()
     {
         return $this->error;

@@ -23,7 +23,7 @@ class SingIn {
         {
             $query = $this->table->query('SELECT id,password,access from users where login = "'.$_POST['login'].'"')->fetch();
             if ($query[1] == md5($_POST['password'])) {
-                $_SESSION['id'] = #query[0];
+                $_SESSION['id'] = $query[0];
                 $_SESSION['access'] = $query[2];
                 return 'ok';
             } else {
