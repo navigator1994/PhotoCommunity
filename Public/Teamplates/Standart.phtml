@@ -2,20 +2,22 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/Public/Teamplates/style.css">
     <title>PhotoCommunity</title>
 </head>
 <body>
-<h1>Parrant teamplate</h1>
 
-<ul>
-    <a href="Guest"><li>Guest</li></a>
-    <a href="SignIn"><li>SignIn</li></a>
-    <a href="SignUp"><li>SignUp</li></a>
-    <a href="Admin"><li>Admin</li></a>
+<div id = "menu">
+    <ul>
+        <a href="http://photocommunity/Home"><li>Home</li></a>
+        <a href="http://photocommunity/SignIn"><li>SignIn</li></a>
+        <a href="http://photocommunity/SignUp"><li>SignUp</li></a>
+        <a href="http://photocommunity/Admin"><li>Admin</li></a>
+    </ul>
+</div>
 
-    <?php  require_once($content); ?>
-
-
-</ul>
+<div id ="content">
+<?php  require_once($content); ?>
+</div>
 </body>
 </html>

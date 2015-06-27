@@ -1,0 +1,31 @@
+<div id = "form-SignUp">
+
+    <div class = "form-column">
+
+        <p>Login:</p>
+        <p>Password:</p>
+        <p>Retype password:</p>
+        <p>Name:</p>
+        <p>Surname:</p>
+        <p>Email:</p>
+        <p>Birthday:</p>
+        <p>Avatar:</p>
+        <p>submit</p>
+    </div>
+
+    <div class = "form-column">
+        <div class = "error-form"><?php echo $data; ?></div>
+        <form method="post" action="http://photocommunity/SignUp/submit" enctype="multipart/form-data">
+            <input type = "text" name = "login" >
+            <input type = "password" name = "password" >
+            <input type = "password" name = "retype-password" >
+            <input type = "text" name = "name" >
+            <input type = "text" name = "surname" >
+            <input type = "email" name = "email" >
+            <input type = "date" name = "date" >
+            <input type = "file" name = "file" >
+            <input type = "submit" name = "submit" >
+        </form>
+    </div>
+
+</div>

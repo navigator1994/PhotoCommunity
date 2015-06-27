@@ -15,15 +15,18 @@ class SignInController extends Parents\ParentController {
 
     public function indexAction()
     {
-        if($this->model->login($_POST['login'],$_POST['password']))
-        {
-            $this->view("signin","login","");
-        }
-        else {
-            $this->view("signin", "login", "");
-        }
+        $this->view("signin", "index");
     }
 
-
+    public function loginAction()
+    {
+        $result = $this->model->login();
+        if($result == 'ok') {
+            header( 'Location: http://photocommunity/account' );
+        }
+        else {
+            $this->view("signin", "index", $result);
+        }
+    }
 
 }

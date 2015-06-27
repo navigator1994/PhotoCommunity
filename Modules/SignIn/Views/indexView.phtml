@@ -1,11 +1,19 @@
-<form method="post" action="http://localhost/projects/PhotoCommunity/SignIn/login">
-    <input type = "text" placeholder="Login" name = "login"></br>
-    <input type = "password" placeholder="Password" name = "password"></br>
-    <input type="submit" value = "SignIn" name = "submit">
+<div id = "form-SignUp">
 
-    </form>
+    <div class = "form-column">
+        <p>Login:</p>
+        <p>Password:</p>
+        <p>submit</p>
+    </div>
 
-<?php
+    <div class = "form-column">
+        <div class = "error-form"><?php echo $data; ?></div>
+        <form method="post" action="http://photocommunity/SignIn/login" enctype="multipart/form-data">
+            <input type = "text" name = "login" >
+            <input type = "password" name = "password" >
+            <input type = "submit" name = "submit" >
+        </form>
+    </div>
 
-print_r($data);
+</div>
 

@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#menu{
+    width: 100%;
+    height: 50px;
+    background: #444;
+}
+#menu ul a li{
+    display: inline-block;
+    color: white;
+    padding: 0 10px;
+}
+#menu ul a{
+    line-height: 50px;
+    padding: 0 10px;
+}
+#menu ul a li:hover{
+    background: white;
+    color: #444;
+}
+#content{
+    width: 1000px;
+    margin: 0 auto;
+}
+.user-home{
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+.span-home{
+    display: inline-block;
+    position: absolute;
+    bottom:0;
+    left:0;
+    font-size: 20px;
+    line-height: 25px;
+    background: #444;
+    width: 100%;
+    padding: 5px 0 5px 10px;
+}
+#form-SignUp{
+    margin-top: 20px;
+}
+.form-column{
+    display: inline-block;
+}
+.form-column form {
+    width: 100px;
+}
+.form-column form input {
+    width: 300px;
+    height: 25px;
+    background: #eee;
+    border: 1px solid #ccc;
+}
+.form-column p{
+    line-height: 26px;
+    font-size: 20px;
+}
+.error-form{
+    color: red;
+    font-size: 16px;
+    margin:10px;
+}

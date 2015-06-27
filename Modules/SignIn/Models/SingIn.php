@@ -3,33 +3,35 @@
 namespace Modules\SignIn;
 
 use Modules\Parents\Table;
+use Modules\Parents\Validator;
+
 class SingIn {
 
-    public $table;
+    private $table;
+    private $validator;
 
     function __construct()
     {
         $DB = new Table();
         $this->table = $DB->getTable();
+        $this->validator = new Validator();
     }
 
-    public function login($login,$password)
+    public function login()
     {
-        if(empty($login) || empty($password))
+        if($this->validator->isValidSingIn($_POST['login'],$_POST['password']))
         {
-            return false;
-        }
-        else {
-            $query = $this->table->prepare('SELECT id,password,access from users where login = :login');
-            $query->execute(array('login' => $login));
-            $data = $query->fetch();
-            if ($data[1] == $password) {
-                $_SESSION['id'] = $data[0];
-                $_SESSION['access'] = $data[2];
-                return true;
+            $query = $this->table->query('SELECT id,password,access from users where login = "'.$_POST['login'].'"')->fetch();
+            if ($query[1] == md5($_POST['password'])) {
+                $_SESSION['id'] = #query[0];
+                $_SESSION['access'] = $query[2];
+                return 'ok';
             } else {
-                return false;
+                return 'wrong login or password';
             }
+        }
+        else{
+            return $this->validator->getErrorMessage();
         }
     }
 }

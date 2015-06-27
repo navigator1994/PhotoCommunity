@@ -13,7 +13,6 @@ class router {
     {
         if (!empty($_GET['route'])) {$this->route = $_GET['route'];};
         $this->getController();
-
     }
 
     private function getRoute()
@@ -28,8 +27,8 @@ class router {
         $module = ucfirst($parts[0]);
         $name = ucfirst($parts[0])."Controller";
         if (empty($parts[0])) {
-            $this->controller = "GuestController";
-            $module = "Guest";
+            $this->controller = "HomeController";
+            $module = "Home";
         }
         else if (!class_exists("Modules\\$module\\$name")) {
             throw new \Exception("Can`t load controller $name", 1);
@@ -69,16 +68,4 @@ class router {
         return true;
     }
 
-
-
-
-
-
-            //if(file_exists("./Modules/$parts[0]/Controllers/$this->controller.php"))
-            //{
-            //    require_once("./Modules/$module/Controllers/$this->controller.php");
-           // }
-            //else{
-            //    require_once("./Modules/Error/Controllers/ErrorController.php");
-            //}
 }
