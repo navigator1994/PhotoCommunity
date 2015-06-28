@@ -71,6 +71,13 @@ class Validator {
         return true;
     }
 
+    public function isValidComments($text)
+    {
+        if((!empty($text)) && (strlen($text)<255)) {
+            return true;
+        }
+    }
+
     public function getErrorMessage()
     {
         return $this->error;

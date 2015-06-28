@@ -1,0 +1,23 @@
+<div id = "image-show"><img src="<?php echo $data['image'][2]?>"></div>
+    <div class = "image-show-options">
+        <a class="image-option" href="">delete |</a>
+        <a class="image-option" href="">like: <?php echo $data['image'][3]?> |</a>
+        <a class="image-option" href="">dislike: <?php echo $data['image'][4]?></a>
+    </div>
+
+        <div class = "comment-form form-column">
+            <form method="post" enctype="multipart/form-data" action="http://photocommunity/image/comment/<?php echo $data['image'][0] ?>">
+                <textarea name="comment"></textarea>
+                <input type="submit" value="Comment">
+            </form>
+        </div>
+
+    <?php
+        foreach($data['comments'] as $value) {
+            echo '
+            <div class ="comment">
+                <a href = "http://photocommunity/user/user/'.$value[3].'"><div class = "comment-avatar"><img src="'.$value[0].'"></div></a>
+                <div class = "message"><a href = "http://photocommunity/user/user/'.$value[3].'">'.$value[1].'</a>: '.$value[2].' </div>
+            </div>';
+        }
+    ?>

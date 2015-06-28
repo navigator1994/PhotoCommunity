@@ -22,7 +22,7 @@ class SignInController extends Parents\ParentController {
     {
         $result = $this->model->login();
         if($result == 'ok') {
-            header( 'Location: http://photocommunity/account' );
+            header( 'Location: http://photocommunity/user' );
         }
         else {
             $this->view("signin", "index", $result);

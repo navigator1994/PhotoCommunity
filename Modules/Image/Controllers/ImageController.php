@@ -28,4 +28,23 @@ class ImageController extends ParentController{
         }
     }
 
+    public function showAction()
+    {
+        $option = $this->getQption();
+        $this->view('image','show', array(  'image'     =>  $this->model->getImage($option),
+                                            'comments'  =>  $this->model->getComments($option)));
+    }
+
+    public function commentAction()
+    {
+        $this->model->comment($this->getQption());
+        header('Location: ' . $_SERVER['HTTP_REFERER']);
+    }
+
+    public function deleteAction()
+    {
+        $this->model->delete($this->getQption());
+        header('Location: ' . $_SERVER['HTTP_REFERER']);
+    }
+
 }

@@ -3,7 +3,7 @@
     padding: 0;
 }
 a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -18,6 +18,7 @@ a{
     padding: 0 10px;
 }
 #menu ul a{
+    color: white;
     line-height: 50px;
     padding: 0 10px;
 }
@@ -106,4 +107,40 @@ a{
     background: #444;
     width: 100%;
     padding: 5px 0 5px 10px;
+}
+.image-option{
+    color: black;
+    font-size: 18px;
+}
+.comment-avatar img{
+    height: 100px;
+}
+.comment-avatar{
+    width: 100px;
+    overflow: hidden;
+}
+.comment {
+    display: flex;
+    background: #eee;
+    width: 100%;
+    margin: 10px;
+}
+.comment .message{
+    padding: 10px;
+}
+.comment-form,.comment-form form,.comment-form form textarea{
+    width: 100%;
+}
+.comment-form form textarea{
+    height: 50px;
+    resize: vertical;
+    background: #eee;
+    padding: 10px;
+    font-size: 16px;
+}
+.comment-form form textarea:focus{
+    height: 100px;
+}
+.image-show-options{
+    padding: 10px;
 }
