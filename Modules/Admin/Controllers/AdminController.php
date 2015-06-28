@@ -23,13 +23,4 @@ class AdminController extends Parents\ParentController  {
         }
     }
 
-    function deleteAction()
-    {
-        if($this->model->getAccess()) {
-        $this->view("admin","delete");
-        }
-        else {
-            throw new \Exception('Access deny');
-        }
-    }
 }

@@ -20,7 +20,12 @@ class SignUpController extends ParentController{
 
     public function indexAction()
     {
-        $this->view('signup','index');
+        if($this->model->getStatus()) {
+            header('Location: http://photocommunity/SignIn');
+        }
+        else{
+            $this->view('signup','index');
+        }
     }
 
     public function submitAction()

@@ -34,4 +34,11 @@ class SingIn {
             return $this->validator->getErrorMessage();
         }
     }
+
+    public function getStatus()
+    {
+        if(!empty($_SESSION['id'])) {
+            return true;
+        }
+    }
 }

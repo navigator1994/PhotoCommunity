@@ -35,6 +35,11 @@
         <p>Surname: <?php echo $data['account'][4]?></p>
         <p>Email: <?php echo $data['account'][8]?></p>
         <p>Birthday: <?php echo $data['account'][6]?></p>
-        <p>Status: <?php echo $data['account'][7] == 2 ? "Administrator": "User"?></p>
+        <p>Status: <?php echo $data['account'][7] == 2 ? '<a href="http://photocommunity/Admin">Administrator</a>': "User"?></p>
+        <?php if($data['access']) echo'
+        <p><a href = "http://photocommunity/User/Edit/'.$data['account'][0].'">edit</a>
+        <a href = "http://photocommunity/User/Delete/'.$data['account'][0].'">delete</a></p>
+        ';?>
+
     </div>
 </div>

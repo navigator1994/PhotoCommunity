@@ -15,7 +15,12 @@ class SignInController extends Parents\ParentController {
 
     public function indexAction()
     {
-        $this->view("signin", "index");
+        if($this->model->getStatus()) {
+            header( 'Location: http://photocommunity/user' );
+        }
+        else {
+            $this->view("signin", "index");
+        }
     }
 
     public function loginAction()

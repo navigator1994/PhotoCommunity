@@ -40,63 +40,22 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/Teamplates/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2057" max-vertical-offset="2669">
-              <caret line="134" column="17" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
+            <state vertical-scroll-proportion="-8.153846" vertical-offset="553" max-vertical-offset="2720">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indexView.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/User/Views/indexView.phtml">
+      <file leaf-file-name="UserModel.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Modules/User/Models/UserModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="782">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.5068259" vertical-offset="315" max-vertical-offset="1122">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
               <folding>
-                <marker date="1435495654218" expanded="true" signature="135:466" placeholder="..." />
-                <marker date="1435495654218" expanded="true" signature="253:446" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editView.phtml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Modules/User/Views/editView.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2387267" vertical-offset="9" max-vertical-offset="680">
-              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="indexView.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/SignUp/Views/indexView.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="612">
-              <caret line="27" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Admin/Controllers/AdminController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.26923" vertical-offset="51" max-vertical-offset="680">
-              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="indexView.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Admin/Views/indexView.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="272">
-              <caret line="5" column="212" selection-start-line="5" selection-start-column="212" selection-end-line="5" selection-end-column="212" />
-              <folding>
-                <marker date="1435502311539" expanded="true" signature="180:538" placeholder="..." />
+                <marker date="1435515616305" expanded="true" signature="432:463" placeholder="SELECT * FRO..users..." />
+                <marker date="1435515616305" expanded="true" signature="642:688" placeholder="SELECT * FRO..images..." />
+                <marker date="1435515616305" expanded="true" signature="1133:1166" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
@@ -105,21 +64,19 @@
       <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Modules/User/Controllers/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.653847" vertical-offset="94" max-vertical-offset="680">
-              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="153" max-vertical-offset="1071">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Admin/Models/Admin.php">
+      <file leaf-file-name="Standart.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/Teamplates/Standart.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="646">
-              <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
-              <folding>
-                <marker date="1435498184284" expanded="true" signature="432:453" placeholder="select * FRO..." />
-              </folding>
+            <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="493">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,32 +111,32 @@
         <option value="$PROJECT_DIR$/Modules/router.php" />
         <option value="$PROJECT_DIR$/Modules/Home/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/Modules/Home/Models/Home.php" />
-        <option value="$PROJECT_DIR$/Modules/SignUp/Controllers/SignUpController.php" />
-        <option value="$PROJECT_DIR$/Modules/SignUp/Views/indexView.phtml" />
         <option value="$PROJECT_DIR$/Modules/SignIn/Views/indexView.phtml" />
         <option value="$PROJECT_DIR$/Modules/Home/Views/indexView.phtml" />
         <option value="$PROJECT_DIR$/Modules/Parents/Models/User.php" />
         <option value="$PROJECT_DIR$/Modules/User/Models/User.php" />
-        <option value="$PROJECT_DIR$/Modules/SignIn/Models/SingIn.php" />
         <option value="$PROJECT_DIR$/Modules/Photo/Views/indexView.phtml" />
-        <option value="$PROJECT_DIR$/Modules/SignUp/Models/SignUp.php" />
         <option value="$PROJECT_DIR$/Modules/Photo/Controllers/PhotoController.php" />
         <option value="$PROJECT_DIR$/Modules/Photo/Models/Photo.php" />
-        <option value="$PROJECT_DIR$/Modules/SignIn/Controllers/SignInController.php" />
         <option value="$PROJECT_DIR$/Modules/Parents/Models/Validator.php" />
         <option value="$PROJECT_DIR$/Modules/Image/Views/showView.phtml" />
         <option value="$PROJECT_DIR$/Modules/Parents/Controllers/ParentController.php" />
         <option value="$PROJECT_DIR$/Modules/Image/Models/Image.php" />
         <option value="$PROJECT_DIR$/Modules/Image/Controllers/ImageController.php" />
-        <option value="$PROJECT_DIR$/Modules/User/Models/UserModel.php" />
-        <option value="$PROJECT_DIR$/Modules/User/Views/indexView.phtml" />
-        <option value="$PROJECT_DIR$/Public/Teamplates/Standart.phtml" />
         <option value="$PROJECT_DIR$/Modules/Admin/Models/Admin.php" />
-        <option value="$PROJECT_DIR$/Modules/Admin/Controllers/AdminController.php" />
-        <option value="$PROJECT_DIR$/Public/Teamplates/style.css" />
         <option value="$PROJECT_DIR$/Modules/Admin/Views/indexView.phtml" />
-        <option value="$PROJECT_DIR$/Modules/User/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Controllers/AdminController.php" />
+        <option value="$PROJECT_DIR$/Modules/SignUp/Views/indexView.phtml" />
+        <option value="$PROJECT_DIR$/Modules/SignIn/Models/SingIn.php" />
+        <option value="$PROJECT_DIR$/Modules/SignUp/Models/SignUp.php" />
+        <option value="$PROJECT_DIR$/Modules/SignUp/Controllers/SignUpController.php" />
+        <option value="$PROJECT_DIR$/Modules/User/Models/UserModel.php" />
+        <option value="$PROJECT_DIR$/Modules/SignIn/Controllers/SignInController.php" />
+        <option value="$PROJECT_DIR$/Modules/User/Views/indexView.phtml" />
+        <option value="$PROJECT_DIR$/Public/Teamplates/style.css" />
         <option value="$PROJECT_DIR$/Modules/User/Views/editView.phtml" />
+        <option value="$PROJECT_DIR$/Modules/User/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/Public/Teamplates/Standart.phtml" />
       </list>
     </option>
   </component>
@@ -362,46 +319,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhotoCommunity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhotoCommunity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SignUp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhotoCommunity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhotoCommunity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SignUp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -495,7 +412,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -505,7 +422,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21029411" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3275862" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -554,8 +471,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="748">
           <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
           <folding>
-            <marker date="1435495654218" expanded="true" signature="135:466" placeholder="..." />
-            <marker date="1435495654218" expanded="true" signature="253:446" placeholder="..." />
+            <marker date="1435522170744" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1435522170744" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1435522170744" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1435522170744" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -591,9 +510,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="697">
           <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding>
-            <marker date="1435430221455" expanded="true" signature="-1:-1" placeholder="SELECT id,pa..users..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -610,8 +527,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="277" max-vertical-offset="850">
           <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
           <folding>
-            <marker date="1435425337997" expanded="true" signature="-1:-1" placeholder="SELECT id FR..." />
-            <marker date="1435425337997" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1435510852653" expanded="true" signature="-1:-1" placeholder="SELECT id FR..." />
+            <marker date="1435510852653" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -765,20 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/SignIn/Controllers/SignInController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.038462" vertical-offset="17" max-vertical-offset="629">
-          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/SignUp/Controllers/SignUpController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.692307" vertical-offset="17" max-vertical-offset="629">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Home/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="425">
@@ -793,39 +696,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/SignUp/Models/SignUp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="277" max-vertical-offset="850">
-          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-          <folding>
-            <marker date="1435425337997" expanded="true" signature="-1:-1" placeholder="SELECT id FR..." />
-            <marker date="1435425337997" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/router.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1309">
           <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Parents/Controllers/ParentController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8412969" vertical-offset="0" max-vertical-offset="612">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/SignIn/Models/SingIn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="697">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding>
-            <marker date="1435430221455" expanded="true" signature="-1:-1" placeholder="SELECT id,pa..users..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,95 +731,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/User/Models/UserModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.961538" vertical-offset="213" max-vertical-offset="816">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <marker date="1435490094849" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..users..." />
-            <marker date="1435490094849" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..users..." />
-            <marker date="1435490094849" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..images..." />
-            <marker date="1435490094849" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..images..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/Teamplates/Standart.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="493">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Admin/Models/Admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="646">
           <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
           <folding>
-            <marker date="1435498184284" expanded="true" signature="432:453" placeholder="select * FRO..." />
+            <marker date="1435498184284" expanded="true" signature="-1:-1" placeholder="select * FRO..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Admin/Controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.26923" vertical-offset="51" max-vertical-offset="680">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        <state vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="527">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/Teamplates/style.css">
+    <entry file="file://$PROJECT_DIR$/Modules/SignUp/Models/SignUp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2057" max-vertical-offset="2669">
-          <caret line="134" column="17" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
-          <folding />
+        <state vertical-scroll-proportion="-20.423077" vertical-offset="302" max-vertical-offset="969">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <marker date="1435510852653" expanded="true" signature="-1:-1" placeholder="SELECT id FR..." />
+            <marker date="1435510852653" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Admin/Views/indexView.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="272">
+        <state vertical-scroll-proportion="0.14834206" vertical-offset="0" max-vertical-offset="573">
           <caret line="5" column="212" selection-start-line="5" selection-start-column="212" selection-end-line="5" selection-end-column="212" />
           <folding>
-            <marker date="1435502311539" expanded="true" signature="180:538" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/User/Views/indexView.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="782">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <marker date="1435495654218" expanded="true" signature="135:466" placeholder="..." />
-            <marker date="1435495654218" expanded="true" signature="253:446" placeholder="..." />
+            <marker date="1435502311539" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/SignUp/Views/indexView.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="612">
-          <caret line="27" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="6" />
+        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="612">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/SignUp/Controllers/SignUpController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="714">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Parents/Controllers/ParentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="612">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/SignIn/Models/SingIn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.346154" vertical-offset="179" max-vertical-offset="816">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/SignIn/Controllers/SignInController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077" vertical-offset="51" max-vertical-offset="714">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/User/Views/indexView.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2901024" vertical-offset="0" max-vertical-offset="867">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <marker date="1435522170744" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1435522170744" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1435522170744" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1435522170744" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/User/Views/editView.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59385663" vertical-offset="77" max-vertical-offset="663">
+          <caret line="25" column="94" selection-start-line="25" selection-start-column="94" selection-end-line="25" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Teamplates/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.153846" vertical-offset="553" max-vertical-offset="2720">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/User/Controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.653847" vertical-offset="94" max-vertical-offset="680">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="153" max-vertical-offset="1071">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/User/Views/editView.phtml">
+    <entry file="file://$PROJECT_DIR$/Public/Teamplates/Standart.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2387267" vertical-offset="9" max-vertical-offset="680">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="493">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/User/Models/UserModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5068259" vertical-offset="315" max-vertical-offset="1122">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <marker date="1435515616305" expanded="true" signature="432:463" placeholder="SELECT * FRO..users..." />
+            <marker date="1435515616305" expanded="true" signature="642:688" placeholder="SELECT * FRO..images..." />
+            <marker date="1435515616305" expanded="true" signature="1133:1166" placeholder="DELETE FROM ..." />
+          </folding>
         </state>
       </provider>
     </entry>

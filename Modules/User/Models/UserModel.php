@@ -45,4 +45,22 @@ class UserModel {
         }
     }
 
+    public function dropSession()
+    {
+        return session_destroy();
+    }
+
+    public function delete($id)
+    {
+        if ($this->table->query('DELETE FROM `users` WHERE `id` = '.$id)) {
+            $path = './Public/UserFiles/Images/'.$id;
+            if ($objs = glob($path . "/*")) {
+                foreach ($objs as $obj) {
+                    unlink($obj);
+                }
+            }
+            rmdir($path);
+        }
+    }
+
 }

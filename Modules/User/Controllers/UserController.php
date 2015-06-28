@@ -21,9 +21,14 @@ class UserController extends ParentController{
 
     public function indexAction()
     {
-        $this->view('user', 'index', array( "account"   =>  $this->model->getUserInfo(),
-                                            "images"    =>  $this->model->getImages(),
-                                            "access"    =>  true ));
+        if($_SESSION['id']) {
+            $this->view('user', 'index', array(     "account"   => $this->model->getUserInfo(),
+                                                    "images"    => $this->model->getImages(),
+                                                    "access"    => true));
+        }
+        else {
+            header('Location: http://photocommunity/SignIn');
+        }
     }
 
     public function userAction()
@@ -35,6 +40,24 @@ class UserController extends ParentController{
 
     Public function editAction()
     {
-        $this->view('user', 'edit',  array( "account"   =>  $this->model->getUserInfo($this->getQption())));
+        if($this->model->getAccess($this->getQption())) {
+            $this->view('user', 'edit', array("account" => $this->model->getUserInfo($this->getQption())));
+        }
+        else {
+            header('Location: http://photocommunity/SignIn');
+        }
+    }
+
+    Public function dropAction()
+    {
+        if($this->model->dropSession()) {
+            header('Location: http://photocommunity/SignIn');
+        }
+    }
+
+    public function deleteAction($id)
+    {
+        $this->model->delete($this->getQption());
+        header('Location: http://photocommunity/user/drop');
     }
 }

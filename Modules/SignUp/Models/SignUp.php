@@ -48,4 +48,11 @@ class SignUp {
             }
     }
 
+    public function getStatus()
+    {
+        if(!empty($_SESSION['id'])) {
+            return true;
+        }
+    }
+
 }
