@@ -19,20 +19,30 @@ class UserModel {
         $this->table = $DB->getTable();
     }
 
-    public function getUserInfo()
+    public function getUserInfo($id = null)
     {
-        return $this->table->query('SELECT * FROM users WHERE id = '.$_SESSION['id'])->fetch();
+        $id = $id == null ? $_SESSION['id'] : $id;
+        return $this->table->query('SELECT * FROM users WHERE id = '.$id)->fetch();
     }
 
-    public function getImages()
+    public function getImages($id = null)
     {
+        $id = $id == null ? $_SESSION['id'] : $id;
+
         $result;
-        $query = $this->table->query('SELECT * FROM images WHERE user_id = "'.$_SESSION['id'].'"');
+        $query = $this->table->query('SELECT * FROM images WHERE user_id = "'.$id.'"');
         while($data = $query->fetch())
         {
             $result[] = $data;
         }
         return array_reverse($result);
+    }
+
+    public function getAccess($id)
+    {
+        if(($id == $_SESSION['id']) || ($_SESSION['access'] == '2')){
+            return true;
+        }
     }
 
 }

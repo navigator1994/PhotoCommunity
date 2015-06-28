@@ -1,1 +1,10 @@
-index admin
+<div id = "user-list">
+    <table>
+        <tr><td>id</td><td>login</td><td>name</td><td>surname</td><td>email</td></tr>
+    <?php
+    foreach ($data as $value) {
+        echo '<tr><td>' . $value[0] . '</td><td>' . $value[1] . '</td><td>' . $value[3] . '</td><td>' . $value[4] . '</td><td>' . $value[8] . '</td><td><a href="http://photocommunity/User/User/'.$value[0].'">view</a></td><td><a href="http://photocommunity/User/edit/'.$value[0].'">edit</a></td><td><a href="http://photocommunity/User/delete/'.$value[0].'">delete</a></td></tr>';
+    }
+    ?>
+        </table>
+</div>

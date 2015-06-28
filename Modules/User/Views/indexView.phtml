@@ -1,30 +1,32 @@
 
 <div id="user">
-    <div id = "photo-content">
-        <div id ="load-form">
-            <form method="post" action="http://photocommunity/image/upload" enctype="multipart/form-data">
-                <label>Upload image: </label><input type="file" name = "file">
-                <input type="submit" name = "upload" value="upload">
-            </form>
-        </div>
+        <div id = "photo-content">
+            <?php if($data['access']) {
+                echo '<div id = "load-form" >
+                <form method = "post" action = "http://photocommunity/image/upload" enctype = "multipart/form-data" >
+                    <label > Upload image: </label ><input type = "file" name = "file" >
+                    <input type = "submit" name = "upload" value = "upload" >
+                </form >
+            </div >';
+            }?>
 
 
-        <?php
-        foreach ($data['images'] as $value) {
-            echo '<a href="http://photocommunity/image/show/'.$value[0].'">
-                <div class = "image-block"><img src="' .$value[2].'">
-                    <div class = "options">
-                    <a href="http://photocommunity/image/delete/'.$value[0].'">delete</a>
-                    <a href="">like: '.$value[3].'</a>
-                    <a href="">dislike: '.$value[4].'</a>
+            <?php
+            foreach ($data['images'] as $value) {
+                echo '<a href="http://photocommunity/image/show/'.$value[0].'">
+                    <div class = "image-block"><img src="' .$value[2].'">
+                        <div class = "options">
+                        <a href="http://photocommunity/image/delete/'.$value[0].'">delete</a>
+                        <a href="http://photocommunity/image/like/'.$value[0].'">like: '.$value[3].'</a>
+                         <a href="http://photocommunity/image/dislike/'.$value[0].'">dislike: '.$value[4].'</a>
+                        </div>
                     </div>
-                </div>
-            </a>';
-        }
-        ?>
+                </a>';
+            }
+            ?>
 
 
-    </div>
+        </div>
 
     <div id = "account">
         <div class = "avatar"><img src="<?php echo $data['account'][5]?>"></div>

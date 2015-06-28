@@ -67,8 +67,12 @@ class Image {
         else die('access deny');
     }
 
-    public function like()
+    public function like($id, $type)
     {
-        
+        if($this->table->query('SELECT `like_id` FROM `images` WHERE id = '.$id)->fetch()[0] != $_SESSION['id']) {
+            return $this->table->query('INSERT INTO `like` (`user_id`,`photo_id`) VALUE ("' . $_SESSION['id'] . '","' . $id . '"); UPDATE `images` SET `' . $type . '` = `' . $type . '` + 1, `like_id` = ' . $_SESSION['id'] . ' WHERE `id` = ' . $id);
+        }
     }
+
+
 }

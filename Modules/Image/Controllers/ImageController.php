@@ -47,4 +47,26 @@ class ImageController extends ParentController{
         header('Location: ' . $_SERVER['HTTP_REFERER']);
     }
 
+    public function likeAction()
+    {
+        $like = $this->model->like($this->getQption(),'like');
+        if (!$like) {
+            throw new \Exception('you have already voted');
+        }
+        else {
+            header('Location: ' . $_SERVER['HTTP_REFERER']);
+        }
+    }
+
+    public function disLikeAction()
+    {
+        $dislike = $this->model->like($this->getQption(),'dislike');
+        if (!$dislike) {
+            throw new \Exception('you have already voted');
+        }
+        else {
+            header('Location: ' . $_SERVER['HTTP_REFERER']);
+        }
+    }
+
 }

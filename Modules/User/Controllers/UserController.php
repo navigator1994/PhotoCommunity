@@ -22,6 +22,19 @@ class UserController extends ParentController{
     public function indexAction()
     {
         $this->view('user', 'index', array( "account"   =>  $this->model->getUserInfo(),
-                                            "images"    =>  $this->model->getImages()));
+                                            "images"    =>  $this->model->getImages(),
+                                            "access"    =>  true ));
+    }
+
+    public function userAction()
+    {
+        $this->view('user', 'index', array( "account"   =>  $this->model->getUserInfo($this->getQption()),
+                                            "images"    =>  $this->model->getImages($this->getQption()),
+                                            "access"    =>  $this->model->getAccess($this->getQption())));
+    }
+
+    Public function editAction()
+    {
+        $this->view('user', 'edit',  array( "account"   =>  $this->model->getUserInfo($this->getQption())));
     }
 }

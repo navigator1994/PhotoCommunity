@@ -6,20 +6,30 @@ use Modules\Parents;
 
 class AdminController extends Parents\ParentController  {
 
-    private $Model;
+    private $model;
 
     function __construct()
     {
-        $this->Model = new Admin();
+        $this->model = new Admin();
     }
 
     function indexAction()
     {
-        $this->view("admin","index","data");
+        if($this->model->getAccess()) {
+            $this->view("admin", "index",$this->model->getUsers());
+        }
+        else {
+            throw new \Exception('Access deny');
+        }
     }
 
     function deleteAction()
     {
-        $this->view("admin","delete","data");
+        if($this->model->getAccess()) {
+        $this->view("admin","delete");
+        }
+        else {
+            throw new \Exception('Access deny');
+        }
     }
 }
