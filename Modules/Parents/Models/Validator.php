@@ -18,9 +18,9 @@ class Validator {
 
     }
 
-    public function isValidSignUp($login,$password, $retypepassword, $name,$surname,$bdate, $avatar = 'avatar.jpg', $email)
+    public function isValidSignUp($login,$password, $retypepassword, $name,$surname,$bdate, $avatar = 'http://photocommunity/Public/UserFiles/defaultAvatar.jpg', $email)
     {
-
+        $imageinfo = getimagesize($avatar);
         if((!preg_match('/[a-zA-Z]{0,1}[a-zA-Z0-9._-]$/i', $login)) || (strlen($login)<3) || (strlen($login)>15)){
             $this->error = 'wrong login';
         }
@@ -42,10 +42,9 @@ class Validator {
         else if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
             $this->error = 'wrong email';
         }
-        //else if(!preg_match('/[.](JPG)|(jpg)|(jpeg)|(JPEG)|(gif)|(GIF)|(png)|(PNG)$/', $avatar))
-        //{
-         //  $this->error = 'wrong avatar';
-        //}
+        if (($imageinfo['mime'] != 'image/gif') && ($imageinfo['mime'] != 'image/jpeg') && ($imageinfo['mime'] != 'image/png')) {
+            $this->error = 'wrong image';
+        }
         else{
             return true;
         }
@@ -68,7 +67,11 @@ class Validator {
 
     public function isValidPhoto($file)
     {
-        return true;
+        $imageinfo = getimagesize($file);
+        if (($imageinfo['mime'] != 'image/gif') && ($imageinfo['mime'] != 'image/jpeg') && ($imageinfo['mime'] != 'image/png')) {
+            $this->error = 'wrong image';
+        }
+        else return true;
     }
 
     public function isValidComments($text)

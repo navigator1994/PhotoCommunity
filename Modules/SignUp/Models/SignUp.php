@@ -28,7 +28,7 @@ class SignUp {
             return 'login already used';
         }
         else {
-            if ($this->validator->isValidSignUp($_POST['login'], $_POST['password'], $_POST['retype-password'], $_POST['name'], $_POST['surname'], $_POST['date'], $_FILES['file']['name'], $_POST['email'])) {
+            if ($this->validator->isValidSignUp($_POST['login'], $_POST['password'], $_POST['retype-password'], $_POST['name'], $_POST['surname'], $_POST['date'], $_FILES['file']['tmp_name'], $_POST['email'])) {
                 return $this->sent();
             } else {
                 return $this->validator->getErrorMessage();

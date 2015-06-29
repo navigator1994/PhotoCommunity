@@ -69,7 +69,7 @@ class UserModel {
 
     public function edit($id)
     {
-        if ($this->validator->isValidSignUp($_POST['login'], $_POST['password'] == null ? 'password' : $_POST['password'], $_POST['retype-password'] == null ? 'password' : $_POST['retype-password'], $_POST['name'], $_POST['surname'], $_POST['date'], $_FILES['file']['name'], $_POST['email']) === true) {
+        if ($this->validator->isValidSignUp($_POST['login'], $_POST['password'] == null ? 'password' : $_POST['password'], $_POST['retype-password'] == null ? 'password' : $_POST['retype-password'], $_POST['name'], $_POST['surname'], $_POST['date'], $_FILES['file']['tmp_name'], $_POST['email']) === true) {
             $this->table->query('UPDATE `users` SET `login` = "'.$_POST['login'].'", `name` = "'.$_POST['name'].'", `surname` = "'.$_POST['surname'].'", `date` = "'.$_POST['date'].'", `email` = "'.$_POST['email'].'" WHERE `id` = "'.$id.'"');
         }
         else {
