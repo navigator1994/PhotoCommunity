@@ -13,6 +13,7 @@ use Modules\Parents\ParentController;
 class UserController extends ParentController{
 
     public $model;
+    public $validator;
 
     public function __construct()
     {
@@ -38,7 +39,7 @@ class UserController extends ParentController{
                                             "access"    =>  $this->model->getAccess($this->getQption())));
     }
 
-    Public function editAction()
+    public function editAction()
     {
         if($this->model->getAccess($this->getQption())) {
             $this->view('user', 'edit', array("account" => $this->model->getUserInfo($this->getQption())));
@@ -48,7 +49,7 @@ class UserController extends ParentController{
         }
     }
 
-    Public function dropAction()
+    public function dropAction()
     {
         if($this->model->dropSession()) {
             header('Location: http://photocommunity/SignIn');
@@ -60,4 +61,11 @@ class UserController extends ParentController{
         $this->model->delete($this->getQption());
         header('Location: http://photocommunity/user/drop');
     }
+
+    public function editSubmitAction()
+    {
+        $this->view('user','edit', array(   "error"      =>  $this->model->edit($this->getQption()),
+                                            "account"    =>  $this->model->getUserInfo($this->getQption())));
+    }
+
 }
